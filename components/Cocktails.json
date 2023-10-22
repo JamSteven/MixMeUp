@@ -1,0 +1,598 @@
+[
+  {
+    "id": 1,
+    "nom": "Margarita",
+    "ingredients": [
+      {
+        "nom": "Tequila",
+        "quantite": 4,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus de citron vert",
+        "quantite": 2,
+        "unite": "cl"
+      },
+      {
+        "nom": "Cointreau",
+        "quantite": 2,
+        "unite": "cl"
+      },
+      {
+        "nom": "Sel",
+        "quantite": 0.5,
+        "unite": "cl"
+      }
+    ],
+    "instructions": "Frottez le bord du verre avec le quartier de citron. Trempez le bord du verre dans le sel pour qu'il adhère. Ajoutez de la glace dans le shaker, puis versez la tequila (4 cl), le jus de citron vert (2 cl) et le Cointreau (2 cl). Secouez bien et versez dans le verre. Servez immédiatement."
+  },
+  {
+    "id": 2,
+    "nom": "Piña Colada",
+    "ingredients": [
+      {
+        "nom": "Rhum blanc",
+        "quantite": 6,
+        "unite": "cl"
+      },
+      {
+        "nom": "Lait de coco",
+        "quantite": 6,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus d'ananas",
+        "quantite": 12,
+        "unite": "cl"
+      }
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un mixeur jusqu'à obtenir une consistance crémeuse. Versez dans un verre et garnissez d'une tranche d'ananas et d'une cerise."
+  },
+  {
+    "id": 3,
+    "nom": "Cosmopolitan",
+    "ingredients": [
+      {
+        "nom": "Vodka",
+        "quantite": 4,
+        "unite": "cl"
+      },
+      {
+        "nom": "Triple sec",
+        "quantite": 2,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus de canneberge",
+        "quantite": 2,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus de citron vert",
+        "quantite": 2,
+        "unite": "cl"
+      }
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à martini. Décorez avec un zeste de citron vert."
+  },
+  {
+    "id": 4,
+    "nom": "Mojito",
+    "ingredients": [
+      {
+        "nom": "Rhum blanc",
+        "quantite": 6,
+        "unite": "cl"
+      },
+      {
+        "nom": "Menthe fraîche",
+        "quantite": 6,
+        "unite": "cl"
+      },
+      {
+        "nom": "Sucre",
+        "quantite": 2,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus de citron vert",
+        "quantite": 4,
+        "unite": "cl"
+      },
+      {
+        "nom": "Eau gazeuse",
+        "quantite": 8,
+        "unite": "cl"
+      }
+    ],
+    "instructions": "Dans un verre, écrasez légèrement les feuilles de menthe avec le sucre (2 cl) et le jus de citron vert (4 cl). Ajoutez de la glace, puis le rhum blanc (6 cl). Complétez avec de l'eau gazeuse (8 cl) et remuez doucement."
+  },
+  {
+    "id": 5,
+    "nom": "Daïquiri",
+    "ingredients": [
+      {
+        "nom": "Rhum blanc",
+        "quantite": 6,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus de citron",
+        "quantite": 3,
+        "unite": "cl"
+      },
+      {
+        "nom": "Sucre",
+        "quantite": 2,
+        "unite": "cl"
+      }
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à cocktail refroidi."
+  },
+  {
+    "id": 6,
+    "nom": "Bloody Mary",
+    "ingredients": [
+      {
+        "nom": "Vodka",
+        "quantite": 4,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus de tomate",
+        "quantite": 12,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus de citron",
+        "quantite": 1.5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Sauce Worcestershire",
+        "quantite": 0.5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Sauce Tabasco",
+        "quantite": 0.5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Sel",
+        "quantite": 0.5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Poivre",
+        "quantite": 0.5,
+        "unite": "cl"
+      }
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Versez dans un verre à cocktail rempli de glace. Garnissez d'une branche de céleri et d'une tranche de citron."
+  },
+  {
+    "id": 7,
+    "nom": "Sex on the Beach",
+    "ingredients": [
+      {
+        "nom": "Vodka",
+        "quantite": 4,
+        "unite": "cl"
+      },
+      {
+        "nom": "Peach Schnapps",
+        "quantite": 2,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus d'orange",
+        "quantite": 4,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus de canneberge",
+        "quantite": 4,
+        "unite": "cl"
+      }
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Versez dans un verre highball rempli de glace. Garnissez d'une tranche d'orange et d'une cerise."
+  },
+  {
+    "id": 8,
+    "nom": "Caipirinha",
+    "ingredients": [
+      {
+        "nom": "Cachaça",
+        "quantite": 5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Sucre",
+        "quantite": 2,
+        "unite": "cuillères à café"
+      },
+      {
+        "nom": "Citron vert",
+        "quantite": 1,
+        "unite": "entier"
+      }
+    ],
+    "instructions": "Coupez le citron vert en morceaux et écrasez-les avec le sucre (2 cuillères à café) au fond d'un verre. Ajoutez la cachaça (5 cl) et des glaçons. Remuez bien et servez."
+  },
+  {
+    "id": 9,
+    "nom": "Whiskey Sour",
+    "ingredients": [
+      {
+        "nom": "Bourbon",
+        "quantite": 5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus de citron",
+        "quantite": 3,
+        "unite": "cl"
+      },
+      {
+        "nom": "Sucre",
+        "quantite": 1.5,
+        "unite": "cl"
+      }
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre old-fashioned rempli de glace."
+  },
+  {
+    "id": 10,
+    "nom": "Blue Lagoon",
+    "ingredients": [
+      {
+        "nom": "Vodka",
+        "quantite": 4,
+        "unite": "cl"
+      },
+      {
+        "nom": "Curacao bleu",
+        "quantite": 2,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus de citron",
+        "quantite": 2,
+        "unite": "cl"
+      },
+      {
+        "nom": "Limonade",
+        "quantite": 8,
+        "unite": "cl"
+      }
+    ],
+    "instructions": "Dans un verre rempli de glace, versez la vodka (4 cl) et le curaçao bleu (2 cl). Ajoutez le jus de citron (2 cl) et complétez avec de la limonade (8 cl). Remuez doucement et servez."
+  },
+  {
+    "id": 11,
+    "nom": "Mai Tai",
+    "ingredients": [
+      {
+        "nom": "Rhum blanc",
+        "quantite": 4,
+        "unite": "cl"
+      },
+      {
+        "nom": "Rhum ambré",
+        "quantite": 2,
+        "unite": "cl"
+      },
+      {
+        "nom": "Triple sec",
+        "quantite": 1.5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Sirop d'orgeat",
+        "quantite": 1.5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus de citron vert",
+        "quantite": 1.5,
+        "unite": "cl"
+      }
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et versez dans un verre highball rempli de glace pilée. Décorez avec une tranche d'ananas et une cerise."
+  },
+  {
+    "id": 12,
+    "nom": "Tequila Sunrise",
+    "ingredients": [
+      {
+        "nom": "Tequila",
+        "quantite": 4,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus d'orange",
+        "quantite": 10,
+        "unite": "cl"
+      },
+      {
+        "nom": "Grenadine",
+        "quantite": 1,
+        "unite": "cl"
+      }
+    ],
+    "instructions": "Remplissez un verre highball de glace. Versez la tequila (4 cl) et le jus d'orange (10 cl). Laissez la grenadine (1 cl) couler lentement dans le verre sur le dos d'une cuillère pour créer l'effet de lever de soleil. Ne remuez pas, servez tel quel."
+  },
+  {
+    "id": 13,
+    "nom": "Cuba Libre",
+    "ingredients": [
+      {
+        "nom": "Rhum blanc",
+        "quantite": 5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus de citron vert",
+        "quantite": 1.5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Coca-Cola",
+        "quantite": 12,
+        "unite": "cl"
+      }
+    ],
+    "instructions": "Versez le rhum blanc (5 cl) et le jus de citron vert (1.5 cl) dans un verre rempli de glace. Complétez avec du Coca-Cola (12 cl). Remuez doucement et garnissez d'une tranche de citron vert."
+  },
+  {
+    "id": 14,
+    "nom": "Tom Collins",
+    "ingredients": [
+      {
+        "nom": "Gin",
+        "quantite": 4,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus de citron",
+        "quantite": 2.5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Sirop de sucre",
+        "quantite": 1,
+        "unite": "cl"
+      },
+      {
+        "nom": "Eau gazeuse",
+        "quantite": 6,
+        "unite": "cl"
+      }
+    ],
+    "instructions": "Mélangez le gin (4 cl), le jus de citron (2.5 cl) et le sirop de sucre (1 cl) avec de la glace dans un shaker. Versez dans un verre highball rempli de glace, puis complétez avec de l'eau gazeuse (6 cl). Décorez avec une tranche de citron et une cerise."
+  },
+  {
+    "id": 15,
+    "nom": "Sour Apple Martini",
+    "ingredients": [
+      {
+        "nom": "Vodka",
+        "quantite": 4,
+        "unite": "cl"
+      },
+      {
+        "nom": "Schnapps aux pommes aigres",
+        "quantite": 2,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus de citron vert",
+        "quantite": 1,
+        "unite": "cl"
+      }
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à martini refroidi."
+  },
+  {
+    "id": 16,
+    "nom": "Blue Moon",
+    "ingredients": [
+      {
+        "nom": "Curacao bleu",
+        "quantite": 3,
+        "unite": "cl"
+      },
+      {
+        "nom": "Crème de banane",
+        "quantite": 3,
+        "unite": "cl"
+      },
+      {
+        "nom": "Lait",
+        "quantite": 6,
+        "unite": "cl"
+      }
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez bien et versez dans un verre à cocktail."
+  },
+  {
+    "id": 17,
+    "nom": "Gin Fizz",
+    "ingredients": [
+      {
+        "nom": "Gin",
+        "quantite": 4,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus de citron",
+        "quantite": 2.5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Sirop de sucre",
+        "quantite": 1.5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Eau gazeuse",
+        "quantite": 6,
+        "unite": "cl"
+      }
+    ],
+    "instructions": "Mélangez le gin (4 cl), le jus de citron (2.5 cl) et le sirop de sucre (1.5 cl) avec de la glace dans un shaker. Versez dans un verre highball rempli de glace, puis complétez avec de l'eau gazeuse (6 cl). Remuez doucement et garnissez d'une tranche de citron."
+  },
+  {
+    "id": 18,
+    "nom": "Mint Julep",
+    "ingredients": [
+      {
+        "nom": "Bourbon",
+        "quantite": 6,
+        "unite": "cl"
+      },
+      {
+        "nom": "Sucre",
+        "quantite": 2,
+        "unite": "cuillères à café"
+      },
+      {
+        "nom": "Feuilles de menthe",
+        "quantite": 6,
+        "unite": "feuilles"
+      }
+    ],
+    "instructions": "Dans un verre, écrasez légèrement les feuilles de menthe (6 feuilles) avec le sucre (2 cuillères à café). Ajoutez un peu d'eau et de glace pilée. Versez le bourbon (6 cl) et remuez doucement."
+  },
+  {
+    "id": 19,
+    "nom": "Long Island Iced Tea",
+    "ingredients": [
+      {
+        "nom": "Vodka",
+        "quantite": 1.5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Rhum blanc",
+        "quantite": 1.5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Gin",
+        "quantite": 1.5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Tequila",
+        "quantite": 1.5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Triple sec",
+        "quantite": 1.5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus de citron",
+        "quantite": 2.5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Coca-Cola",
+        "quantite": 6,
+        "unite": "cl"
+      }
+    ],
+    "instructions": "Mélangez tous les ingrédients, à l'exception du Coca-Cola, avec de la glace dans un shaker. Versez dans un verre highball rempli de glace, puis complétez avec du Coca-Cola (6 cl). Remuez doucement."
+  },
+  {
+    "id": 20,
+    "nom": "Pisco Sour",
+    "ingredients": [
+      {
+        "nom": "Pisco",
+        "quantite": 5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus de citron",
+        "quantite": 3,
+        "unite": "cl"
+      },
+      {
+        "nom": "Blanc d'œuf",
+        "quantite": 1,
+        "unite": "unité"
+      },
+      {
+        "nom": "Sucre",
+        "quantite": 1,
+        "unite": "cuillère à café"
+      }
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à cocktail. Garnissez d'une goutte d'Angostura."
+  },
+  {
+    "id": 21,
+    "nom": "Kamikaze",
+    "ingredients": [
+      {
+        "nom": "Vodka",
+        "quantite": 3,
+        "unite": "cl"
+      },
+      {
+        "nom": "Triple sec",
+        "quantite": 3,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus de citron",
+        "quantite": 3,
+        "unite": "cl"
+      }
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à shooter."
+  },
+  {
+    "id": 22,
+    "nom": "Black Russian",
+    "ingredients": [
+      {
+        "nom": "Vodka",
+        "quantite": 5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Kahlúa",
+        "quantite": 2,
+        "unite": "cl"
+      }
+    ],
+    "instructions": "Versez la vodka (5 cl) et le Kahlúa (2 cl) dans un verre old-fashioned rempli de glace. Remuez doucement."
+  },
+  {
+    "id": 23,
+    "nom": "Sea Breeze",
+    "ingredients": [
+      {
+        "nom": "Vodka",
+        "quantite": 4,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus de canneberge",
+        "quantite": 12,
+        "unite": "cl"
+      },
+      {
+        "nom": "Jus de pamplemousse",
+        "quantite": 4,
+        "unite": "cl"
+      }
+    ],
+    "instructions": "Versez la vodka (4 cl), le jus de canneberge (12 cl) et le jus de pamplemousse (4 cl) dans un verre highball rempli de glace. Remuez doucement et garnissez d'une tranche de citron vert."
+  }
+]

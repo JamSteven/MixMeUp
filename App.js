@@ -1,20 +1,26 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import * as React from "react"
+import { NavigationContainer } from "@react-navigation/native"
+import { createStackNavigator } from "@react-navigation/stack"
+import { BottomTabNavigator } from "./components/BottomTabNavigator"
+import CocktailDetailScreen from "./screens/CocktailDetailScreen"
+import CocktailsListScreen from "./screens/CocktailsListScreen"
+import { MaterialCommunityIcons } from "@expo/vector-icons"
+import CocktailFinder from "./screens/CocktailFinder"
+const Stack = createStackNavigator()
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen
+          name="Home"
+          component={BottomTabNavigator}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen name="CocktailDetail" component={CocktailDetailScreen} />
+        <Stack.Screen name="CocktailsList" component={CocktailsListScreen} />
+        <Stack.Screen name="CocktailFinder" component={CocktailFinder} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

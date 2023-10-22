@@ -1,0 +1,785 @@
+[
+  {
+    "id": 1,
+    "nom": "Margarita",
+    "ingredients": [
+      {
+        "nom": "Tequila",
+        "quantite_cl": 4
+      },
+      {
+        "nom": "Jus de citron vert",
+        "quantite_cl": 2
+      },
+      {
+        "nom": "Cointreau",
+        "quantite_cl": 2
+      },
+      {
+        "nom": "Sel",
+        "quantite_cl": 0.5
+      }
+    ],
+    "instructions": "Frottez le bord du verre avec le quartier de citron. Trempez le bord du verre dans le sel pour qu'il adhère. Ajoutez de la glace dans le shaker, puis versez la tequila (4 cl), le jus de citron vert (2 cl) et le Cointreau (2 cl). Secouez bien et versez dans le verre. Servez immédiatement."
+  },
+
+  {
+    "id": 2,
+    "nom": "Piña Colada",
+    "ingredients": ["Rhum blanc", "Lait de coco", "Jus d'ananas"],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un mixeur jusqu'à obtenir une consistance crémeuse. Versez dans un verre et garnissez d'une tranche d'ananas et d'une cerise."
+  },
+  {
+    "id": 3,
+    "nom": "Cosmopolitan",
+    "ingredients": [
+      "Vodka",
+      "Triple sec",
+      "Jus de canneberge",
+      "Jus de citron vert"
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à martini. Décorez avec un zeste de citron vert."
+  },
+  {
+    "id": 4,
+    "nom": "Mojito",
+    "ingredients": [
+      "Rhum blanc",
+      "Menthe fraîche",
+      "Sucre",
+      "Jus de citron vert",
+      "Eau gazeuse"
+    ],
+    "instructions": "Dans un verre, écrasez légèrement les feuilles de menthe avec le sucre et le jus de citron vert. Ajoutez de la glace, puis le rhum. Complétez avec de l'eau gazeuse et remuez doucement."
+  },
+  {
+    "id": 5,
+    "nom": "Daïquiri",
+    "ingredients": ["Rhum blanc", "Jus de citron", "Sucre"],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à cocktail refroidi."
+  },
+  {
+    "id": 6,
+    "nom": "Bloody Mary",
+    "ingredients": [
+      "Vodka",
+      "Jus de tomate",
+      "Jus de citron",
+      "Sauce Worcestershire",
+      "Sauce Tabasco",
+      "Sel",
+      "Poivre"
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Versez dans un verre à cocktail rempli de glace. Garnissez d'une branche de céleri et d'une tranche de citron."
+  },
+  {
+    "id": 7,
+    "nom": "Sex on the Beach",
+    "ingredients": [
+      "Vodka",
+      "Peach Schnapps",
+      "Jus d'orange",
+      "Jus de canneberge"
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un verre highball. Remuez doucement et garnissez d'une tranche d'orange et d'une cerise."
+  },
+  {
+    "id": 8,
+    "nom": "Caipirinha",
+    "ingredients": ["Cachaça", "Sucre", "Citron vert"],
+    "instructions": "Coupez le citron vert en morceaux et écrasez-le avec le sucre au fond d'un verre. Ajoutez de la glace et versez la cachaça. Remuez bien."
+  },
+  {
+    "id": 9,
+    "nom": "Whiskey Sour",
+    "ingredients": ["Bourbon", "Jus de citron", "Sucre"],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à cocktail."
+  },
+  {
+    "id": 10,
+    "nom": "Blue Lagoon",
+    "ingredients": ["Vodka", "Curacao bleu", "Jus de citron", "Limonade"],
+    "instructions": "Dans un verre rempli de glace, versez la vodka et le curaçao bleu. Ajoutez le jus de citron et complétez avec de la limonade. Remuez doucement et servez."
+  },
+  {
+    "id": 11,
+    "nom": "Mai Tai",
+    "ingredients": [
+      "Rhum blanc",
+      "Rhum ambré",
+      "Triple sec",
+      "Sirop d'orgeat",
+      "Jus de citron vert"
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et versez dans un verre highball rempli de glace pilée. Décorez avec une tranche d'ananas et une cerise."
+  },
+  {
+    "id": 12,
+    "nom": "Tequila Sunrise",
+    "ingredients": ["Tequila", "Jus d'orange", "Grenadine"],
+    "instructions": "Remplissez un verre highball de glace. Versez la tequila et le jus d'orange. Laissez la grenadine couler lentement dans le verre sur le dos d'une cuillère pour créer l'effet de lever de soleil. Ne remuez pas, servez tel quel."
+  },
+  {
+    "id": 13,
+    "nom": "Cuba Libre",
+    "ingredients": ["Rhum blanc", "Jus de citron vert", "Coca-Cola"],
+    "instructions": "Versez le rhum blanc et le jus de citron vert dans un verre rempli de glace. Complétez avec du Coca-Cola. Remuez doucement et garnissez d'une tranche de citron vert."
+  },
+  {
+    "id": 14,
+    "nom": "Tom Collins",
+    "ingredients": ["Gin", "Jus de citron", "Sirop de sucre", "Eau gazeuse"],
+    "instructions": "Mélangez le gin, le jus de citron et le sirop de sucre avec de la glace dans un shaker. Versez dans un verre highball rempli de glace, puis complétez avec de l'eau gazeuse. Décorez avec une tranche de citron et une cerise."
+  },
+  {
+    "id": 15,
+    "nom": "Sour Apple Martini",
+    "ingredients": [
+      "Vodka",
+      "Schnapps aux pommes aigres",
+      "Jus de citron vert"
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à martini refroidi."
+  },
+  {
+    "id": 16,
+    "nom": "Blue Moon",
+    "ingredients": ["Curacao bleu", "Crème de banane", "Lait"],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez bien et versez dans un verre à cocktail."
+  },
+  {
+    "id": 17,
+    "nom": "Gin Fizz",
+    "ingredients": ["Gin", "Jus de citron", "Sirop de sucre", "Eau gazeuse"],
+    "instructions": "Mélangez le gin, le jus de citron et le sirop de sucre avec de la glace dans un shaker. Versez dans un verre highball rempli de glace, puis complétez avec de l'eau gazeuse. Remuez doucement et garnissez d'une tranche de citron."
+  },
+  {
+    "id": 18,
+    "nom": "Mint Julep",
+    "ingredients": ["Bourbon", "Sucre", "Feuilles de menthe"],
+    "instructions": "Dans un verre, écrasez légèrement les feuilles de menthe avec le sucre. Ajoutez un peu d'eau et de glace pilée. Versez le bourbon et remuez doucement."
+  },
+  {
+    "id": 19,
+    "nom": "Long Island Iced Tea",
+    "ingredients": [
+      "Vodka",
+      "Rhum blanc",
+      "Gin",
+      "Tequila",
+      "Triple sec",
+      "Jus de citron",
+      "Coca-Cola"
+    ],
+    "instructions": "Mélangez tous les ingrédients, à l'exception du Coca-Cola, avec de la glace dans un shaker. Versez dans un verre highball rempli de glace, puis complétez avec du Coca-Cola. Remuez doucement."
+  },
+  {
+    "id": 20,
+    "nom": "Pisco Sour",
+    "ingredients": ["Pisco", "Jus de citron", "Blanc d'œuf", "Sucre"],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à cocktail. Garnissez d'une goutte d'Angostura."
+  },
+  {
+    "id": 21,
+    "nom": "Kamikaze",
+    "ingredients": ["Vodka", "Triple sec", "Jus de citron"],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à shooter."
+  },
+  {
+    "id": 22,
+    "nom": "Dark 'n' Stormy",
+    "ingredients": ["Rhum noir", "Ginger beer", "Lime"],
+    "instructions": "Versez le rhum noir sur de la glace dans un verre highball. Complétez avec de la ginger beer et garnissez d'une tranche de lime."
+  },
+  {
+    "id": 23,
+    "nom": "Mimosa",
+    "ingredients": ["Champagne", "Jus d'orange"],
+    "instructions": "Versez le champagne dans une flûte à champagne. Complétez avec du jus d'orange. Remuez doucement."
+  },
+  {
+    "id": 24,
+    "nom": "Singapore Sling",
+    "ingredients": [
+      "Gin",
+      "Cherry Brandy",
+      "Triple sec",
+      "Jus d'ananas",
+      "Jus de citron",
+      "Soda"
+    ],
+    "instructions": "Mélangez tous les ingrédients, à l'exception du soda, avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre highball rempli de glace. Complétez avec du soda."
+  },
+  {
+    "id": 25,
+    "nom": "Caïpirinha de Fraise",
+    "ingredients": ["Cachaça", "Fraises", "Sucre", "Citron vert"],
+    "instructions": "Coupez le citron vert en morceaux et écrasez-le avec le sucre au fond d'un verre. Ajoutez les fraises coupées en morceaux et écrasez-les également. Ajoutez de la glace et versez la cachaça. Remuez bien."
+  },
+  {
+    "id": 26,
+    "nom": "Planter's Punch",
+    "ingredients": [
+      "Rhum brun",
+      "Jus d'ananas",
+      "Jus d'orange",
+      "Jus de citron",
+      "Sirop de grenadine",
+      "Angostura"
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre highball rempli de glace. Décorez avec une tranche d'orange et une cerise."
+  },
+  {
+    "id": 27,
+    "nom": "Blue Lagoon",
+    "ingredients": ["Vodka", "Curacao bleu", "Jus de citron", "Limonade"],
+    "instructions": "Dans un verre rempli de glace, versez la vodka et le curaçao bleu. Ajoutez le jus de citron et complétez avec de la limonade. Remuez doucement et servez."
+  },
+  {
+    "id": 28,
+    "nom": "Manhattan",
+    "ingredients": ["Whiskey", "Vermouth rouge", "Angostura"],
+    "instructions": "Remuez tous les ingrédients avec de la glace dans un verre à mélange. Filtrez dans un verre à cocktail refroidi. Garnissez d'une cerise."
+  },
+  {
+    "id": 29,
+    "nom": "Pina Colada aux Fraises",
+    "ingredients": ["Rhum blanc", "Lait de coco", "Jus d'ananas", "Fraises"],
+    "instructions": "Mélangez le rhum, le lait de coco, le jus d'ananas et les fraises avec de la glace dans un mixeur jusqu'à obtenir une consistance crémeuse. Versez dans un verre et garnissez d'une fraise."
+  },
+  {
+    "id": 30,
+    "nom": "Blue Margarita",
+    "ingredients": [
+      "Tequila",
+      "Blue Curaçao",
+      "Jus de citron vert",
+      "Sucre",
+      "Sel"
+    ],
+    "instructions": "Frottez le bord du verre avec le quartier de citron. Trempez le bord du verre dans le sucre pour qu'il adhère. Ajoutez de la glace dans le shaker, puis versez la tequila, le Blue Curaçao et le jus de citron vert. Secouez bien et versez dans le verre. Servez immédiatement."
+  },
+  {
+    "id": 31,
+    "nom": "Gin and Tonic",
+    "ingredients": ["Gin", "Eau tonique", "Citron", "Glaçons"],
+    "instructions": "Versez le gin sur des glaçons dans un verre highball. Complétez avec de l'eau tonique et garnissez d'une tranche de citron."
+  },
+  {
+    "id": 32,
+    "nom": "Bellini",
+    "ingredients": ["Purée de pêche", "Champagne"],
+    "instructions": "Versez la purée de pêche dans une flûte à champagne. Complétez avec du champagne. Remuez doucement."
+  },
+  {
+    "id": 33,
+    "nom": "Mai Tai",
+    "ingredients": [
+      "Rhum blanc",
+      "Rhum ambré",
+      "Triple sec",
+      "Sirop d'orgeat",
+      "Jus de citron vert"
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et versez dans un verre highball rempli de glace pilée. Décorez avec une tranche d'ananas et une cerise."
+  },
+  {
+    "id": 34,
+    "nom": "Tequila Sunrise",
+    "ingredients": ["Tequila", "Jus d'orange", "Grenadine"],
+    "instructions": "Remplissez un verre highball de glace. Versez la tequila et le jus d'orange. Laissez la grenadine couler lentement dans le verre sur le dos d'une cuillère pour créer l'effet de lever de soleil. Ne remuez pas, servez tel quel."
+  },
+  {
+    "id": 35,
+    "nom": "Cuba Libre",
+    "ingredients": ["Rhum blanc", "Jus de citron vert", "Coca-Cola"],
+    "instructions": "Versez le rhum blanc et le jus de citron vert dans un verre rempli de glace. Complétez avec du Coca-Cola. Remuez doucement et garnissez d'une tranche de citron vert."
+  },
+  {
+    "id": 36,
+    "nom": "Tom Collins",
+    "ingredients": ["Gin", "Jus de citron", "Sirop de sucre", "Eau gazeuse"],
+    "instructions": "Mélangez le gin, le jus de citron et le sirop de sucre avec de la glace dans un shaker. Versez dans un verre highball rempli de glace, puis complétez avec de l'eau gazeuse. Décorez avec une tranche de citron et une cerise."
+  },
+  {
+    "id": 37,
+    "nom": "Sour Apple Martini",
+    "ingredients": [
+      "Vodka",
+      "Schnapps aux pommes aigres",
+      "Jus de citron vert"
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à martini refroidi."
+  },
+  {
+    "id": 38,
+    "nom": "Blue Moon",
+    "ingredients": ["Curacao bleu", "Crème de banane", "Lait"],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez bien et versez dans un verre à cocktail."
+  },
+  {
+    "id": 39,
+    "nom": "Mint Julep",
+    "ingredients": ["Bourbon", "Sucre", "Feuilles de menthe"],
+    "instructions": "Dans un verre, écrasez légèrement les feuilles de menthe avec le sucre. Ajoutez un peu d'eau et de glace pilée. Versez le bourbon et remuez doucement."
+  },
+  {
+    "id": 40,
+    "nom": "Long Island Iced Tea",
+    "ingredients": [
+      "Vodka",
+      "Rhum blanc",
+      "Gin",
+      "Tequila",
+      "Triple sec",
+      "Jus de citron",
+      "Coca-Cola"
+    ],
+    "instructions": "Mélangez tous les ingrédients, à l'exception du Coca-Cola, avec de la glace dans un shaker. Versez dans un verre highball rempli de glace, puis complétez avec du Coca-Cola. Remuez doucement."
+  },
+  {
+    "id": 41,
+    "nom": "Pisco Sour",
+    "ingredients": ["Pisco", "Jus de citron", "Blanc d'œuf", "Sucre"],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à cocktail. Garnissez d'une goutte d'Angostura."
+  },
+  {
+    "id": 42,
+    "nom": "Kamikaze",
+    "ingredients": ["Vodka", "Triple sec", "Jus de citron"],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à shooter."
+  },
+  {
+    "id": 43,
+    "nom": "Dark 'n' Stormy",
+    "ingredients": ["Rhum noir", "Ginger beer", "Lime"],
+    "instructions": "Versez le rhum noir sur de la glace dans un verre highball. Complétez avec de la ginger beer et garnissez d'une tranche de lime."
+  },
+  {
+    "id": 44,
+    "nom": "Mimosa",
+    "ingredients": ["Champagne", "Jus d'orange"],
+    "instructions": "Versez le champagne dans une flûte à champagne. Complétez avec du jus d'orange. Remuez doucement."
+  },
+  {
+    "id": 45,
+    "nom": "Singapore Sling",
+    "ingredients": [
+      "Gin",
+      "Cherry Brandy",
+      "Triple sec",
+      "Jus d'ananas",
+      "Jus de citron",
+      "Soda"
+    ],
+    "instructions": "Mélangez tous les ingrédients, à l'exception du soda, avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre highball rempli de glace. Complétez avec du soda."
+  },
+  {
+    "id": 46,
+    "nom": "Caïpirinha de Fraise",
+    "ingredients": ["Cachaça", "Fraises", "Sucre", "Citron vert"],
+    "instructions": "Coupez le citron vert en morceaux et écrasez-le avec le sucre au fond d'un verre. Ajoutez les fraises coupées en morceaux et écrasez-les également. Ajoutez de la glace et versez la cachaça. Remuez bien."
+  },
+  {
+    "id": 47,
+    "nom": "Planter's Punch",
+    "ingredients": [
+      "Rhum brun",
+      "Jus d'ananas",
+      "Jus d'orange",
+      "Jus de citron",
+      "Sirop de grenadine",
+      "Angostura"
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre highball rempli de glace. Décorez avec une tranche d'orange et une cerise."
+  },
+  {
+    "id": 48,
+    "nom": "Blue Lagoon",
+    "ingredients": ["Vodka", "Curacao bleu", "Jus de citron", "Limonade"],
+    "instructions": "Dans un verre rempli de glace, versez la vodka et le curaçao bleu. Ajoutez le jus de citron et complétez avec de la limonade. Remuez doucement et servez."
+  },
+  {
+    "id": 49,
+    "nom": "Manhattan",
+    "ingredients": ["Whiskey", "Vermouth rouge", "Angostura"],
+    "instructions": "Remuez tous les ingrédients avec de la glace dans un verre à mélange. Filtrez dans un verre à cocktail refroidi. Garnissez d'une cerise."
+  },
+  {
+    "id": 50,
+    "nom": "Pina Colada aux Fraises",
+    "ingredients": ["Rhum blanc", "Lait de coco", "Jus d'ananas", "Fraises"],
+    "instructions": "Mélangez le rhum, le lait de coco, le jus d'ananas et les fraises avec de la glace dans un mixeur jusqu'à obtenir une consistance crémeuse. Versez dans un verre et garnissez d'une fraise."
+  },
+  {
+    "id": 51,
+    "nom": "Daiquiri aux Fraises",
+    "ingredients": ["Rhum blanc", "Jus de citron", "Fraises", "Sucre"],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un mixeur. Versez dans un verre et garnissez d'une fraise."
+  },
+  {
+    "id": 52,
+    "nom": "Blueberry Mojito",
+    "ingredients": [
+      "Rhum blanc",
+      "Menthe fraîche",
+      "Sucre",
+      "Jus de citron vert",
+      "Myrtilles",
+      "Eau gazeuse"
+    ],
+    "instructions": "Dans un verre, écrasez légèrement les myrtilles avec le sucre et le jus de citron vert. Ajoutez les feuilles de menthe et écrasez-les aussi. Ajoutez de la glace, puis le rhum. Complétez avec de l'eau gazeuse et remuez doucement. Garnissez de quelques myrtilles et de feuilles de menthe."
+  },
+  {
+    "id": 53,
+    "nom": "Amaretto Sour",
+    "ingredients": ["Amaretto", "Jus de citron", "Sirop de sucre"],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à cocktail."
+  },
+  {
+    "id": 54,
+    "nom": "Mule de Moscou",
+    "ingredients": ["Vodka", "Jus de citron", "Ginger beer"],
+    "instructions": "Versez la vodka et le jus de citron sur de la glace dans un verre à mule de Moscou. Complétez avec de la ginger beer et remuez doucement. Garnissez d'une tranche de citron et d'une feuille de menthe."
+  },
+  {
+    "id": 55,
+    "nom": "Tequila Sunrise aux Framboises",
+    "ingredients": ["Tequila", "Jus d'orange", "Grenadine", "Framboises"],
+    "instructions": "Remplissez un verre highball de glace. Versez la tequila et le jus d'orange. Laissez la grenadine couler lentement dans le verre sur le dos d'une cuillère pour créer l'effet de lever de soleil. Ne remuez pas, servez tel quel. Garnissez de framboises."
+  },
+  {
+    "id": 56,
+    "nom": "Sangria",
+    "ingredients": [
+      "Vin rouge",
+      "Brandy",
+      "Triple sec",
+      "Jus d'orange",
+      "Jus de citron",
+      "Sucre",
+      "Fruits (pomme, orange, citron)"
+    ],
+    "instructions": "Dans un pichet, mélangez le vin rouge, le brandy, le triple sec, le jus d'orange, le jus de citron et le sucre. Ajoutez des morceaux de fruits (pomme, orange, citron). Réfrigérez pendant quelques heures avant de servir dans des verres à vin remplis de glace."
+  },
+  {
+    "id": 57,
+    "nom": "Margarita à la Fraise",
+    "ingredients": [
+      "Tequila",
+      "Triple sec",
+      "Jus de citron vert",
+      "Jus d'orange",
+      "Fraises",
+      "Sucre"
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un mixeur. Versez dans un verre à margarita et garnissez de fraises."
+  },
+  {
+    "id": 58,
+    "nom": "Cocktail Zombie",
+    "ingredients": [
+      "Rhum blanc",
+      "Rhum brun",
+      "Rhum surproof",
+      "Jus de citron",
+      "Jus d'orange",
+      "Grenadine",
+      "Sirop de sucre",
+      "Angostura"
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre highball rempli de glace. Garnissez d'une tranche d'orange et d'une cerise."
+  },
+  {
+    "id": 59,
+    "nom": "Blueberry Martini",
+    "ingredients": [
+      "Vodka",
+      "Schnapps aux myrtilles",
+      "Jus de citron",
+      "Sucre"
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à martini refroidi. Garnissez de quelques myrtilles."
+  },
+  {
+    "id": 60,
+    "nom": "Mai Tai à la Fraise",
+    "ingredients": [
+      "Rhum blanc",
+      "Rhum ambré",
+      "Triple sec",
+      "Sirop d'orgeat",
+      "Jus de citron vert",
+      "Fraises"
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et versez dans un verre highball rempli de glace pilée. Décorez avec une tranche d'ananas, une cerise et des fraises."
+  },
+  {
+    "id": 61,
+    "nom": "Caipiroska aux Framboises",
+    "ingredients": ["Vodka", "Framboises", "Sucre", "Citron vert"],
+    "instructions": "Coupez le citron vert en morceaux et écrasez-le avec le sucre au fond d'un verre. Ajoutez les framboises et écrasez-les également. Ajoutez de la glace et versez la vodka. Remuez bien et garnissez de framboises."
+  },
+  {
+    "id": 62,
+    "nom": "Tequila Sunrise aux Mûres",
+    "ingredients": ["Tequila", "Jus d'orange", "Grenadine", "Mûres"],
+    "instructions": "Remplissez un verre highball de glace. Versez la tequila et le jus d'orange. Laissez la grenadine couler lentement dans le verre sur le dos d'une cuillère pour créer l'effet de lever de soleil. Ne remuez pas, servez tel quel. Garnissez de mûres."
+  },
+  {
+    "id": 63,
+    "nom": "Cosmopolitan aux Canneberges",
+    "ingredients": [
+      "Vodka",
+      "Triple sec",
+      "Jus de canneberge",
+      "Jus de citron vert",
+      "Canneberges"
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à martini. Décorez avec quelques canneberges."
+  },
+  {
+    "id": 64,
+    "nom": "Cocktail au Coco et Ananas",
+    "ingredients": ["Rhum blanc", "Lait de coco", "Jus d'ananas"],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un mixeur. Versez dans un verre et garnissez d'une tranche d'ananas."
+  },
+  {
+    "id": 65,
+    "nom": "Piña Colada aux Framboises",
+    "ingredients": ["Rhum blanc", "Lait de coco", "Jus d'ananas", "Framboises"],
+    "instructions": "Mélangez le rhum, le lait de coco, le jus d'ananas et les framboises avec de la glace dans un mixeur jusqu'à obtenir une consistance crémeuse. Versez dans un verre et garnissez de framboises."
+  },
+  {
+    "id": 66,
+    "nom": "Margarita à la Framboise",
+    "ingredients": [
+      "Tequila",
+      "Triple sec",
+      "Jus de citron vert",
+      "Jus de framboise",
+      "Sucre"
+    ],
+    "instructions": "Frottez le bord du verre avec le quartier de citron. Trempez le bord du verre dans le sucre pour qu'il adhère. Ajoutez de la glace dans le shaker, puis versez la tequila, le Triple sec, le jus de citron vert et le jus de framboise. Secouez bien et versez dans le verre. Servez immédiatement."
+  },
+  {
+    "id": 67,
+    "nom": "Gin and Tonic aux Agrumes",
+    "ingredients": ["Gin", "Eau tonique", "Citron", "Orange", "Glaçons"],
+    "instructions": "Versez le gin sur des glaçons dans un verre highball. Complétez avec de l'eau tonique et garnissez d'une tranche de citron et d'une tranche d'orange."
+  },
+  {
+    "id": 68,
+    "nom": "Bellini aux Fraises",
+    "ingredients": ["Purée de fraise", "Champagne"],
+    "instructions": "Versez la purée de fraise dans une flûte à champagne. Complétez avec du champagne. Remuez doucement."
+  },
+  {
+    "id": 69,
+    "nom": "Mai Tai aux Framboises",
+    "ingredients": [
+      "Rhum blanc",
+      "Rhum ambré",
+      "Triple sec",
+      "Sirop d'orgeat",
+      "Jus de citron vert",
+      "Framboises"
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et versez dans un verre highball rempli de glace pilée. Décorez avec une tranche d'ananas, une cerise et des framboises."
+  },
+  {
+    "id": 70,
+    "nom": "Tequila Sunrise aux Fraises",
+    "ingredients": ["Tequila", "Jus d'orange", "Grenadine", "Fraises"],
+    "instructions": "Remplissez un verre highball de glace. Versez la tequila et le jus d'orange. Laissez la grenadine couler lentement dans le verre sur le dos d'une cuillère pour créer l'effet de lever de soleil. Ne remuez pas, servez tel quel. Garnissez de fraises."
+  },
+  {
+    "id": 71,
+    "nom": "Cuba Libre aux Agrumes",
+    "ingredients": [
+      "Rhum blanc",
+      "Jus de citron vert",
+      "Coca-Cola",
+      "Citron",
+      "Orange"
+    ],
+    "instructions": "Versez le rhum blanc et le jus de citron vert sur des glaçons dans un verre highball. Complétez avec du Coca-Cola. Garnissez d'une tranche de citron et d'une tranche d'orange."
+  },
+  {
+    "id": 72,
+    "nom": "Tom Collins aux Fraises",
+    "ingredients": [
+      "Gin",
+      "Jus de citron",
+      "Sirop de sucre",
+      "Eau gazeuse",
+      "Fraises"
+    ],
+    "instructions": "Mélangez le gin, le jus de citron et le sirop de sucre avec de la glace dans un shaker. Versez dans un verre highball rempli de glace, puis complétez avec de l'eau gazeuse. Décorez avec une tranche de citron, une cerise et des fraises."
+  },
+  {
+    "id": 73,
+    "nom": "Sour Apple Martini aux Cerises",
+    "ingredients": ["Vodka", "Schnapps aux pommes aigres", "Jus de cerise"],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à martini refroidi. Garnissez de cerises."
+  },
+  {
+    "id": 74,
+    "nom": "Blue Moon aux Framboises",
+    "ingredients": ["Curacao bleu", "Crème de banane", "Lait", "Framboises"],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez bien et versez dans un verre à cocktail. Garnissez de framboises."
+  },
+  {
+    "id": 75,
+    "nom": "Mint Julep aux Mûres",
+    "ingredients": ["Bourbon", "Sucre", "Feuilles de menthe", "Mûres"],
+    "instructions": "Dans un verre, écrasez légèrement les feuilles de menthe avec le sucre. Ajoutez un peu d'eau et de glace pilée. Versez le bourbon et remuez doucement. Garnissez de mûres."
+  },
+  {
+    "id": 76,
+    "nom": "Long Island Iced Tea aux Agrumes",
+    "ingredients": [
+      "Vodka",
+      "Rhum blanc",
+      "Gin",
+      "Tequila",
+      "Triple sec",
+      "Jus de citron",
+      "Coca-Cola",
+      "Citron",
+      "Orange"
+    ],
+    "instructions": "Mélangez tous les ingrédients, à l'exception du Coca-Cola, avec de la glace dans un shaker. Versez dans un verre highball rempli de glace, puis complétez avec du Coca-Cola. Garnissez d'une tranche de citron et d'une tranche d'orange."
+  },
+  {
+    "id": 77,
+    "nom": "Pisco Sour aux Framboises",
+    "ingredients": [
+      "Pisco",
+      "Jus de citron",
+      "Blanc d'œuf",
+      "Sucre",
+      "Framboises"
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à cocktail. Garnissez de framboises."
+  },
+  {
+    "id": 78,
+    "nom": "Kamikaze aux Framboises",
+    "ingredients": ["Vodka", "Triple sec", "Jus de citron", "Framboises"],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à shooter. Garnissez de framboises."
+  },
+  {
+    "id": 79,
+    "nom": "Dark 'n' Stormy aux Agrumes",
+    "ingredients": ["Rhum noir", "Ginger beer", "Lime", "Orange"],
+    "instructions": "Versez le rhum noir sur de la glace dans un verre highball. Complétez avec de la ginger beer et garnissez d'une tranche de lime et d'une tranche d'orange."
+  },
+  {
+    "id": 80,
+    "nom": "Mimosa aux Framboises",
+    "ingredients": ["Champagne", "Jus d'orange", "Framboises"],
+    "instructions": "Versez le champagne dans une flûte à champagne. Complétez avec du jus d'orange. Garnissez de framboises."
+  },
+  {
+    "id": 81,
+    "nom": "Singapore Sling aux Framboises",
+    "ingredients": [
+      "Gin",
+      "Cherry Brandy",
+      "Triple sec",
+      "Jus d'ananas",
+      "Jus de citron",
+      "Soda",
+      "Framboises"
+    ],
+    "instructions": "Mélangez tous les ingrédients, à l'exception du soda, avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre highball rempli de glace. Complétez avec du soda et garnissez de framboises."
+  },
+  {
+    "id": 82,
+    "nom": "Caïpirinha de Fraise",
+    "ingredients": ["Cachaça", "Fraises", "Sucre", "Citron vert"],
+    "instructions": "Coupez le citron vert en morceaux et écrasez-le avec le sucre au fond d'un verre. Ajoutez les fraises coupées en morceaux et écrasez-les également. Ajoutez de la glace et versez la cachaça. Remuez bien et garnissez de fraises."
+  },
+  {
+    "id": 83,
+    "nom": "Planter's Punch aux Framboises",
+    "ingredients": [
+      "Rhum brun",
+      "Jus d'ananas",
+      "Jus d'orange",
+      "Jus de citron",
+      "Sirop de grenadine",
+      "Angostura",
+      "Framboises"
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre highball rempli de glace. Décorez avec une tranche d'orange, une cerise et des framboises."
+  },
+  {
+    "id": 84,
+    "nom": "Blue Lagoon aux Framboises",
+    "ingredients": [
+      "Vodka",
+      "Curacao bleu",
+      "Jus de citron",
+      "Limonade",
+      "Framboises"
+    ],
+    "instructions": "Dans un verre rempli de glace, versez la vodka et le curaçao bleu. Ajoutez le jus de citron et complétez avec de la limonade. Remuez doucement et garnissez de framboises."
+  },
+  {
+    "id": 85,
+    "nom": "Manhattan aux Framboises",
+    "ingredients": ["Whiskey", "Vermouth rouge", "Angostura", "Framboises"],
+    "instructions": "Remuez tous les ingrédients avec de la glace dans un verre à mélange. Filtrez dans un verre à cocktail refroidi. Garnissez de framboises."
+  },
+  {
+    "id": 86,
+    "nom": "Pina Colada aux Framboises et Ananas",
+    "ingredients": [
+      "Rhum blanc",
+      "Lait de coco",
+      "Jus d'ananas",
+      "Framboises",
+      "Ananas"
+    ],
+    "instructions": "Mélangez le rhum, le lait de coco, le jus d'ananas et les framboises avec de la glace dans un mixeur jusqu'à obtenir une consistance crémeuse. Versez dans un verre et garnissez de framboises et d'une tranche d'ananas."
+  },
+  {
+    "id": 87,
+    "nom": "Daiquiri aux Framboises",
+    "ingredients": ["Rhum blanc", "Jus de citron", "Framboises", "Sucre"],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un mixeur. Versez dans un verre et garnissez de framboises."
+  },
+  {
+    "id": 88,
+    "nom": "Blueberry Mojito aux Citrons",
+    "ingredients": [
+      "Rhum blanc",
+      "Menthe fraîche",
+      "Sucre",
+      "Jus de citron vert",
+      "Myrtilles",
+      "Eau gazeuse",
+      "Citrons"
+    ],
+    "instructions": "Dans un verre, écrasez légèrement les myrtilles avec le sucre et le jus de citron vert. Ajoutez les feuilles de menthe et écrasez-les aussi. Ajoutez de la glace, puis le rhum. Complétez avec de l'eau gazeuse et remuez doucement. Garnissez de quelques myrtilles et de tranches de citron."
+  },
+  {
+    "id": 89,
+    "nom": "Amaretto Sour aux Framboises",
+    "ingredients": [
+      "Amaretto",
+      "Jus de citron",
+      "Sirop de sucre",
+      "Framboises"
+    ],
+    "instructions": "Mélangez tous les ingrédients avec de la glace dans un shaker. Secouez vigoureusement et filtrez dans un verre à cocktail. Garnissez de framboises."
+  },
+  {
+    "id": 90,
+    "nom": "Mule de Moscou aux Framboises",
+    "ingredients": ["Vodka", "Jus de citron", "Ginger beer", "Framboises"],
+    "instructions": "Versez la vodka et le jus de citron sur de la glace dans un verre à mule de Moscou. Complétez avec de la ginger beer et remuez doucement. Garnissez de framboises."
+  }
+]
